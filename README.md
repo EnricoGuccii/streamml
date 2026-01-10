@@ -15,13 +15,14 @@ sudo uv run -m streamml.app
 ```
 
 
-results are stored here:
+### Results are stored here:
 
 LOGS_PATH = XDG_DATA_HOME/streamml/profiles_logs
 
 PCAP_PATH = XDG_DATA_HOME/streamml/profiles_pcaps
 
-This is how it works:
+
+### This is how it works:
 
                   +--------------------+
                   | Profile Activation |
@@ -66,6 +67,6 @@ This is how it works:
                                     | Alert               |
                                     +---------------------+
 
-
+### Screenshots
 <img width="988" height="540" alt="screenshot1" src="https://github.com/user-attachments/assets/65ed2870-fb2c-4212-9db6-d74b10248809" />
 
