@@ -13,8 +13,8 @@ from .window import Window
 from .notification_service import notification_service
 
 XDG_DATA_HOME = Path(os.environ.get("XDG_DATA_HOME", Path.home() / ".local/share"))
-LOGS_PATH = f"{XDG_DATA_HOME}/netmonitor/detector/profiles_logs"
-PCAP_PATH = f"{XDG_DATA_HOME}/netmonitor/detector/profiles_pcaps"
+LOGS_PATH = f"{XDG_DATA_HOME}/streamml/profiles_logs"
+PCAP_PATH = f"{XDG_DATA_HOME}/streamml/profiles_pcaps"
 
 
 class DetectorProfileHST:
