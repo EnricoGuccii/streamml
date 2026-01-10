@@ -6,9 +6,8 @@ from textual import on
 from ..back.notification_service import notification_service
 
 class OptionsTab(Container):
-    def __init__(self, scanner_manager, detector_manager, *args, **kwargs):
+    def __init__(self, detector_manager, *args, **kwargs):
         super().__init__(*args, **kwargs)
-        self.scanner_manager = scanner_manager
         self.detector_manager = detector_manager
 
     def compose(self) -> ComposeResult:

@@ -1,7 +1,7 @@
 from textual import on
 from textual.app import ComposeResult
 from textual.widgets import Input, Select, Button, Label, Checkbox
-from textual.containers import Container, Horizontal, Vertical, VerticalScroll
+from textual.containers import Container, Horizontal, VerticalScroll
 
 import psutil
 

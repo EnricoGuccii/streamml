@@ -208,7 +208,7 @@ class DetectorProfileHST:
         return {
             "is_active": self.is_active,
             "notify_enabled": self.notify_enabled,
-            "packets_captured": getattr(self, "packets_read", 0),
+            "packets_sniffed": getattr(self, "packets_read", 0),
             "queue_size": self.queue.qsize() if hasattr(self, "queue") and self.queue else 0,
             "windows_processed": getattr(self, "windows_analyzed", 0),
             "window_duration": self.window_duration

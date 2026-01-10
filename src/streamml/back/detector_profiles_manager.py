@@ -2,7 +2,7 @@ import re
 from pathlib import Path
 from typing import Callable, Literal
 import pickle
-from netmonitor.back.detector_profile_HST import DetectorProfileHST
+from streamml.back.detector_profile_HST import DetectorProfileHST
 
 
 SeverityLevel = Literal["information", "warning", "error"]
