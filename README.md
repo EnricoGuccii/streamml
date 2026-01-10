@@ -18,6 +18,7 @@ sudo uv run -m streamml.app
 results are stored here:
 
 LOGS_PATH = XDG_DATA_HOME/streamml/profiles_logs
+
 PCAP_PATH = XDG_DATA_HOME/streamml/profiles_pcaps
 
 This is how it works:
