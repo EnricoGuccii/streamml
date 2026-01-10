@@ -1,6 +1,5 @@
 # streamml
 
-
 Streamml processes network packets in real-time, feeding them into the Half-Space Trees algorithm (via the River library). When the score exceeds the defined threshold, the application saves an evidentiary PCAP dump containing the relevant packet window.
 
 Note: Currently supports Half-Space Trees, with plans to add more algorithms.
@@ -17,6 +16,7 @@ sudo uv run -m streamml.app
 
 
 results are stored here:
+
 LOGS_PATH = XDG_DATA_HOME/streamml/profiles_logs
 PCAP_PATH = XDG_DATA_HOME/streamml/profiles_pcaps
 
@@ -66,4 +66,5 @@ This is how it works:
                                     +---------------------+
 
 
-![Main Window](images/screen1.png)
+<img width="988" height="540" alt="screenshot1" src="https://github.com/user-attachments/assets/65ed2870-fb2c-4212-9db6-d74b10248809" />
+
