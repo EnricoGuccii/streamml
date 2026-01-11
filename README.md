@@ -1,6 +1,6 @@
 # streamml
 
-Streamml processes network packets in real-time, feeding them into the Half-Space Trees algorithm (via the River library). When the score exceeds the defined threshold, the application saves an evidentiary PCAP dump containing the relevant packet window.
+Streamml processes network packets in real-time, feeding them into the Half-Space Trees algorithm (via the [River](https://riverml.xyz/dev/api/anomaly/HalfSpaceTrees/) library). When the score exceeds the defined threshold, the application saves an evidentiary PCAP dump containing the relevant packet window.
 
 Note: Currently supports Half-Space Trees, with plans to add more algorithms.
 
